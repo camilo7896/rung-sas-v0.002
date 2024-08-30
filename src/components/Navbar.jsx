@@ -11,13 +11,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-gray-800 p-4 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <img
-            src="../../public/logo1.png" // Reemplaza esto con la ruta a tu logo
-            alt="Logo"
-            className="h-10 mr-3"
-          />
-          <a href="#" className="text-white text-2xl font-bold">
-            Rung
+                <a href="#" className="text-white text-2xl font-bold">
+            Rung S.A.S
           </a>
         </div>
         <button
