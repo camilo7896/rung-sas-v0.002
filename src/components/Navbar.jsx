@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <img
-            src="public/logo1.png" // Reemplaza esto con la ruta a tu logo
+            src="../../public/logo1.png" // Reemplaza esto con la ruta a tu logo
             alt="Logo"
             className="h-10 mr-3"
           />
