@@ -6,7 +6,7 @@ const TermsConditions = () => (
         <h1 className="text-4xl font-bold text-center mb-8">Términos y Condiciones</h1>
         <div className="prose max-w-full mx-auto">
           <p>
-            Bienvenido a Rung SAS. Al acceder y utilizar nuestro sitio web y servicios, aceptas los siguientes términos y condiciones.
+            Bienvenido a Rung S.A.S. Al acceder y utilizar nuestro sitio web y servicios, aceptas los siguientes términos y condiciones.
           </p>
           <h2>1. Aceptación de los Términos</h2>
           <p>

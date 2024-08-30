@@ -3,7 +3,7 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="flex justify-between items-center">
         <div className="text-sm">
-          <p>&copy; {new Date().getFullYear()} Rung SAS. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Rung S.A.S. Todos los derechos reservados.</p>
         </div>
         <div className="text-sm">
         <a href="/privacy-policy" className="hover:underline">Política de Privacidad</a>

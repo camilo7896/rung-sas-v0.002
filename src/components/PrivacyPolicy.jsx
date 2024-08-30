@@ -5,7 +5,7 @@ const PrivacyPolicy = () => (
         <h1 className="text-4xl font-bold text-center mb-8">Política de Privacidad</h1>
         <div className="prose max-w-full mx-auto">
           <p>
-            En Rung SAS, valoramos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política explica cómo recopilamos, utilizamos y protegemos tu información.
+            En Rung S.A.S, valoramos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política explica cómo recopilamos, utilizamos y protegemos tu información.
           </p>
           <h2>1. Información que Recopilamos</h2>
           <p>
