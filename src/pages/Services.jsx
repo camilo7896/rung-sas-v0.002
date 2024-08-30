@@ -1,29 +1,23 @@
-
 const Services = () => (
-  <div id="services" className="min-h-screen bg-base-200 py-10">
-    <div className="text-center">
-      <h2 className="text-4xl font-bold">Nuestros Servicios</h2>
-      <p className="py-6">
-        Ofrecemos una amplia gama de servicios de automatización que se adaptan a las necesidades específicas de tu negocio, desde la automatización de procesos industriales hasta soluciones de software personalizadas.
-      </p>
-    </div>
-    <div className="flex flex-wrap justify-center">
-      {/* Aquí puedes agregar tarjetas o bloques para cada servicio */}
-      <div className="card w-80 bg-base-100 shadow-xl m-4">
-        <div className="card-body">
-          <h3 className="card-title">Automatización de Procesos</h3>
-          <p>Optimizamos y automatizamos procesos industriales para mejorar la eficiencia y reducir costos.</p>
+  <section id="services" className="py-16 bg-white">
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center mb-8">Nuestros Servicios</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-4">Automatización de Procesos</h3>
+          <p>Optimizamos tus procesos internos para mejorar la eficiencia y reducir costos.</p>
+        </div>
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-4">Consultoría en Tecnología</h3>
+          <p>Te asesoramos en la implementación de tecnologías avanzadas para tus operaciones.</p>
+        </div>
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-4">Desarrollo de Software Personalizado</h3>
+          <p>Creación de soluciones de software a medida para satisfacer tus necesidades específicas.</p>
         </div>
       </div>
-      <div className="card w-80 bg-base-100 shadow-xl m-4">
-        <div className="card-body">
-          <h3 className="card-title">Desarrollo de Software</h3>
-          <p>Desarrollamos soluciones de software a medida para automatizar tareas específicas y mejorar la productividad.</p>
-        </div>
-      </div>
-      {/* Agrega más tarjetas para otros servicios */}
     </div>
-  </div>
+  </section>
 );
 
 export default Services;

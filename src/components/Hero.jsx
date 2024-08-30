@@ -12,17 +12,11 @@ const Hero = () => (
       <div className="max-w-md">
         <h1 className="text-5xl font-bold">Automatiza con Rung SAS</h1>
         <p className="py-6">En Rung SAS, nos especializamos en ofrecer servicios de automatización de vanguardia para optimizar tus operaciones empresariales.</p>
-        <a
-          href="https://wa.me/573132361040" // Enlace para WhatsApp
-          target="_blank" // Abre el enlace en una nueva pestaña
-          rel="noopener noreferrer" // Seguridad adicional para el enlace externo
-          className="btn btn-primary"
-        >
-          Contáctanos
-        </a>
+        <a href="https://wa.me/3132361040" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Contáctanos por WhatsApp</a>
       </div>
     </div>
   </div>
 );
 
 export default Hero;
+

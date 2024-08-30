@@ -5,4 +5,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+  /* Agrega esto en tu archivo CSS */
+.navbar-menu {
+  transition: max-height 0.3s ease-out;
+}
