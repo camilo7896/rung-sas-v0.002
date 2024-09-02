@@ -7,6 +7,7 @@ const Footer = () => (
           <h2 className="text-lg font-bold mb-2">Información de Contacto</h2>
           <p className="mt-2">Calle 15B # 5-34 Duitama (Boyacá)</p>
           <p>Tel: +57 301 2051987</p>
+          <p>comercial@rungsas.com</p>
         </div>
         
         {/* Sección de Políticas */}
