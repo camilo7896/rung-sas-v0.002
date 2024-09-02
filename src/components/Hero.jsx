@@ -10,9 +10,9 @@ const Hero = () => (
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="hero-content text-center text-neutral-content">
       <div className="max-w-md">
-        <h1 className="text-5xl font-bold">Automatiza con Rung S.A.S</h1>
-        <p className="py-6">En Rung S.A.S, nos especializamos en ofrecer servicios de automatización de vanguardia para optimizar tus operaciones empresariales.</p>
-        <a href="https://wa.me/3132361040" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Contáctanos por WhatsApp</a>
+        <h1 className="text-5xl font-bold text-gray-200">Automatiza con Rung S.A.S</h1>
+        <p className="py-6 text-gray-300">En Rung S.A.S, nos especializamos en ofrecer servicios de automatización de vanguardia para optimizar tus operaciones empresariales.</p>
+        <a href="https://wa.me/3132361040" target="_blank" rel="noopener noreferrer" className="btn btn-primary text-gray-200">Contáctanos por WhatsApp</a>
       </div>
     </div>
   </div>
