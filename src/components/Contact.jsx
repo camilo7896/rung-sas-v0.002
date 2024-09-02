@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     emailjs
-      .send('default_service', 'template_ppmnpqi', templateParams, 'user_s4Ni5coA5PAH3jRvxFGAX')
+      .send('service_vztrrod', 'template_fay8vmb', templateParams, 'tRnOr2WSUtej8XLmf')
       .then((response) => {
         console.log('Correo enviado exitosamente:', response);
         setStatus('Correo enviado exitosamente.');
@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="relative container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-3xl font-bold mb-4">Contacto</h2>
+            <h2 className="text-3xl font-bold mb-4 text-slate-700">Contacto</h2>
             <p className="text-lg text-gray-700 mb-8">
               Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
             </p>
@@ -105,7 +105,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              <button type="submit" className="btn btn-primary">Enviar Mensaje</button>
+              <button type="submit" className="btn btn-primary text-gray-200">Enviar Mensaje</button>
               {status && <p className="mt-4 text-lg font-semibold">{status}</p>}
             </form>
           </div>
